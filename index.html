@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My Web Application</h1>
+
+<input type="text" id="myInput" value="">
+<button onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput").value;
+  document.getElementById("demo").textContent= "You entered: " + x;
+}
+</script>
+
+</body>
+</html>
